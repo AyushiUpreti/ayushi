@@ -189,12 +189,12 @@ button{
 
 .navi{
     position: relative;
-    top: 50px;
+    top:55px;
     z-index: 1;
 }
 
 .nav-item{
-    padding:108px;
+    padding:108px; 
     color: var(--black);
 }
 
@@ -207,6 +207,12 @@ button{
 }
 
 
+/* nav */
+
+
+
+
+
 /* .header{
     position: absolute;
     left: 0;
@@ -216,7 +222,7 @@ button{
     padding: 70px 30px 0;
 }
 
-.topnav .active .{
+.topnav .active {
     visibility: visible;
 }
 
@@ -614,6 +620,19 @@ h3,h4,h5,h6{
         font-size:35px;
     }
 }
+
+@media(max-width:405px){
+    .home-img .img-box{
+        width: 250px;
+    }
+}
+
+@media (max-width:410px){
+    .footer p{
+        font-size: 12px;
+    }
+}
+
 
 .footer{
     text-align: center;
